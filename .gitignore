@@ -1,0 +1,27 @@
+# Pipeline (has its own repo)
+my1040taxprep-pipeline/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node
+web/node_modules/
+web/.next/
+web/out/
+
+# Environment files
+.env
+.env.local
+api/.env
+web/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated PDFs (ephemeral)
+/tmp/tax_pdfs_*
